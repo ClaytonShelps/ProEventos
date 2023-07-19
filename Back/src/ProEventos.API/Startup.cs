@@ -61,6 +61,7 @@ namespace ProEventos.API
                               .AllowAnyOrigin()
                               );
 
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
